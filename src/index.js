@@ -13,12 +13,14 @@ $(document).ready(function() {
     promise.then(function(response) {
       const body = JSON.parse(response);
       let newAmount = ((`${body.conversion_rate}`) * currencyUSD);
-      console.log(response);
-      console.log(newAmount);
+      // console.log(response);
+      // console.log(newAmount);
+      $('.showErrors').text('');
       $('.showCurrencyExchange').text('');
-      $('.showCurrencyExchange').append(newAmount);
+      $('.showCurrencyExchange').append("Thats " + newAmount + " " + currencyExchange + "!");
     }, function(error) {
-      $('.showErrors').text(`There was an error processing your request: ${error}`);
+      $('.showErrors').text('');
+      $('.showErrors').text(`There was an error processing that request: ${error}`);
     });
   });
 });
