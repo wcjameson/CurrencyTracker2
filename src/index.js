@@ -23,4 +23,8 @@ $(document).ready(function() {
       $('.showErrors').text(`There was an error processing that request: ${error}`);
     });
   });
+
+  $('#currencyCodesBtn').click(function() {
+    $('.currencyCodes').toggle();
+  });
 });
