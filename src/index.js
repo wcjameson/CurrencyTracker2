@@ -13,8 +13,6 @@ $(document).ready(function() {
     promise.then(function(response) {
       const body = JSON.parse(response);
       let newAmount = ((`${body.conversion_rate}`) * currencyUSD);
-      // console.log(response);
-      // console.log(newAmount);
       $('.showErrors').text('');
       $('.showCurrencyExchange').text('');
       $('.showCurrencyExchange').append("Thats " + newAmount + " " + currencyExchange + "!");

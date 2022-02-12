@@ -1,3 +1,15 @@
 .currencyCodes {
   display: none
 }
+
+body {
+  background-color: rgb(201, 173, 207);
+}
+
+#currencyBtn {
+  border: 1px solid;
+}
+
+#currencyCodesBtn {
+  border: 1px solid;
+}
