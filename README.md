@@ -17,11 +17,11 @@
 * Babel
 
 ## Description
-This web app converts and amount of USD specified by the user to a currency of their choice using currency codes and based off of the daily exchange rate.
+This web app converts an amount of USD specified by the user to a currency of their choice using currency codes and based off of the daily exchange rate.
 
 ## Setup/Installation Requirements
 
-* * Navigate to the github repository by following the url https://github.com/wcjameson/CurrencyTracker2
+* Navigate to the github repository by following the url https://github.com/wcjameson/CurrencyTracker2
 * You can clone the repository to your machine by following these steps
 * In your terminal enter the following
 * git clone https://github.com/wcjameson/CurrencyTracker2
